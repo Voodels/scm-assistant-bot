@@ -188,6 +188,9 @@ This approach was particularly useful when users asked follow-up questions refer
 *Response not captured — the free-tier model hit its rate limit within the 24-hour constraint before this query could be tested.*
 
 
+- ## Deployed ScreenShot
+    ![alt text](image.png)
+
 # Iprovements Suggession 
 - RAG / Retrieval
 
