@@ -186,7 +186,12 @@ This approach was particularly useful when users asked follow-up questions refer
 **Q: Which suppliers are on Supplier Watch List (SWL) status, and what does it restrict?**
 
 *Response not captured — the free-tier model hit its rate limit within the 24-hour constraint before this query could be tested.*
-
+- Solution to this problem was chunking to a smaller size 
+    - couldnt do that because of 
+        - i was using local embedding model
+        - it would take me at least 1 hour for rechunking 
+        - My chunk size was off by a very small margin of the llm response limit 
+        ![alt text](./img/image-1res.png)
 
 - ## Deployed ScreenShot
     ![alt text](image.png)
