@@ -82,9 +82,9 @@ After testing **Qdrant**, retrieval quality and consistency were noticeably bett
 |-----------|-------|
 | Vector Dimension | 1024 |
 | Similarity Metric | Cosine Similarity |
-| Top-K Retrieval | 7 |
+| Top-K Retrieval | 4-7 |
 
-The Top-K value of **7** was selected after multiple rounds of testing. Lower values occasionally missed relevant context; higher values introduced noise. 7 provided the best balance between recall and response quality.
+The Top-K value of **4-7** was selected after multiple rounds of testing. Lower values occasionally missed relevant context; higher values introduced noise. 4-7 provided the best balance between recall and response quality.
 
 ---
 
